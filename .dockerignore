@@ -1,0 +1,31 @@
+# cat > .dockerignore << 'EOF'
+# node_modules
+# dist
+# Dockerfile
+# npm-debug.log
+# .git
+# .gitignore
+.env
+.env.local
+README.md
+.vscode
+# .idea
+# *.md
+# EOF
+
+node_modules
+projetCDCI/node_modules
+
+# Ignorer les builds locaux
+dist
+
+# Ignorer le contrôle de version
+.git
+.gitignore
+
+# Fichiers de logs et Docker
+npm-debug.log
+Dockerfile
+README.md
+
+
